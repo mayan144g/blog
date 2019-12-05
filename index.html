@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Maayan Ganelevin's Blog🌟</title>
+    <style>
+    html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: DodgerBlue;
+  font-family: calibri;
+  color: white;
+}
+#topBar{
+  animation-name: topBar;
+  animation-duration: 1.5s;
+  animation-delay: 0.2s;
+  animation-fill-mode: both;
+  width: 100%;
+  height: 54px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(51, 51, 51);
+}
+#topBarText{
+  margin-top: 10px;
+}
+#topBarDown{
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  top: 54px;
+  left: 0px;
+  background-color: dodgerblue;
+}
+h2{
+  font-size: 30px;
+}
+#title1{
+  animation-name: header;
+  animation-duration: 2s;
+  animation-delay: 0.7s;
+  animation-fill-mode: both;
+  margin-left: 40%;
+  font-size: 54px;
+}
+.topLinks{
+  text-align: center;
+  font-size: 20px;
+  padding: 30px;
+  color: white;
+}
+.topLinks:hover{
+  background-color: rgb(20,20,20);
+}
+
+#main{
+  animation-name: main;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes header{
+  from{
+    margin-left: -40%;
+  }
+  to{
+    margin-left: 40%;
+  }
+}
+
+@keyframes topBar{
+  from{
+    top: -100px;
+  }
+  to{
+    top: 0px;
+  }
+}
+
+@keyframes main{
+  from{
+    opacity: 0%;
+    margin-top: 200px;
+  }
+  to{
+    opacity: 100%;
+     margin-top: 0px;
+  }
+}
+    </style>
+  </head>
+  <body>
+    <div id="topBar">
+      <div id="topBarText">
+    <a class="topLinks" href="#Home">Home</a>
+    <a class="topLinks" href="#AboutMe">About Me</a>
+    <a class="topLinks" href="#Videos">Videos</a>
+      </div>
+    <div id="topBarDown"></div>
+      </div>
+      <br>
+      <br>
+      <br>
+    <h1 id="title1">My First Blog🌟</h1>
+     <div id="main">
+    <section id="Home">
+      <br>
+      <br>
+      <h2>Home</h2>
+    <p>Hello everyone, this is my firs site in my new blog. Today I am starting to write my new website.</p>
+      </section>
+    <section id="AboutMe">
+      <br>
+      <br>
+      <br>
+      <h2>About Me</h2>
+      <p>My name is Maayan Ganelevin, I live in Moshav Ein Habsor in the south of Israel.</p>
+      <p>I am a student i Nofey Habsor School, and i study in the program: "Niztaney Mamram".</p>
+      <p>In this program we learn 3 languages:</p>
+      <ol>
+        <li>html</li>
+        <li>css</li>
+        <li>JS</li>
+      </ol>
+      <p>I have 3 brothers:</p>
+      <ul>
+        <li>Amit</li>
+        <li>Shay</li>
+        <li>Roei</li>
+      </ul>
+    </section>
+    <section id="Videos">
+      <br>
+      <br>
+      <br>
+      <h2>Videos</h2>
+      <p>Those are videos I filmed with my drone:</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/UoCZdflqoiY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/bim0f0ygWME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/XvoSa2zmKxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/nyKbgVxjBbQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+      </div>
+  </body>
+</html>
